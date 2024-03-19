@@ -229,7 +229,7 @@
   --gradient-1: linear-gradient(rgb(255, 255, 255) 0%, rgb(239, 241, 255) 100%);
   --gradient-4: linear-gradient(180deg,#fff,#f6f9ff);
   --gradient-2: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(240, 242, 255) 100%);
-  --gradient-3: linear-gradient(90deg, #8DA9FC 0%, #B48DD5 100%);
+  --gradient-3: linear-gradient(90deg, #f9cc23 0%, #f2a000 100%);
   --gradient-4: linear-gradient(180deg, #EFF1FF 0%, #FFFFFF 100%);
   --gradient-5: linear-gradient(rgb(239, 241, 255) 0%, rgb(239, 241, 255) 100%);
   --gradient-6: linear-gradient(to right, rgba(255, 255, 255, 0.15), rgba(251, 199, 226, 0.15), rgba(220, 217, 254, 0.15));
@@ -15211,7 +15211,7 @@ span.transparent-button:hover i {
   }
 }
 .rbt-card.card-list-2 {
-  display: flex;
+  /* display: flex; */
   border-radius: var(--radius);
   align-items: center;
   height: 100%;
@@ -29228,4 +29228,12 @@ Course Sidebar
 .rbt-header .logo a img {
   max-height: 100px !important;
   object-fit: cover;
+}
+
+.content p {
+  font-size: 16px;
+}
+
+.rbt-card-body p {
+  font-size: 16px;
 }
